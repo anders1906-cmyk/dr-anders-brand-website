@@ -11,12 +11,12 @@ export default function DrAndersWebsite() {
     { label: "Book", href: "#book" },
     { label: "Results", href: "#results" },
     { label: "Contact", href: "#contact" },
-    
+
   ];
 
   const trustBar = [
     "National speaker on educator diversity and systems change",
-    "University Director leading a 16 campus initiative",
+    "Advancing educator diversity across teacher education",
     "Scholar practitioner and author",
     "Trusted advisor on teacher education redesign",
   ];
@@ -85,7 +85,7 @@ export default function DrAndersWebsite() {
   ];
 
   const stats = [
-    { value: "16", label: "Campuses across a citywide initiative" },
+    { value: "16", label: "Campuses engaged across a coordinated educator pipeline network at scale" },
     { value: "1", label: "National level voice with a clear niche" },
     { value: "3", label: "Primary lanes: speaking, consulting, thought leadership" },
     { value: "100%", label: "Positioned around equity driven institutional design" },
@@ -123,15 +123,15 @@ export default function DrAndersWebsite() {
         <section className="relative overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(251,191,36,0.17),transparent_28%),radial-gradient(circle_at_bottom_right,rgba(245,158,11,0.14),transparent_32%)]" />
           <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-amber-300/40 to-transparent" />
-          <div className="relative mx-auto max-w-7xl px-6 pb-20 pt-20 lg:px-8 lg:pb-24 lg:pt-24">
+          <div className="relative mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-20">
             <div className="grid items-center gap-10 lg:grid-cols-12">
               <div className="lg:col-span-7">
                 <div className="inline-flex items-center gap-2 rounded-full border border-amber-300/20 bg-amber-300/10 px-4 py-1.5 text-sm text-amber-200">
                   <Sparkles className="h-4 w-4" />
                   Trusted voice in teacher education, equity, and institutional design
                 </div>
-                <h1 className="mt-6 max-w-5xl text-5xl font-semibold leading-tight tracking-tight text-white md:text-7xl">
-                  A premier brand for speaking, consulting, and national thought leadership in educator pipeline development.
+                <h1 className="mt-6 max-w-4xl text-5xl font-semibold leading-tight tracking-tight text-white md:text-6xl">
+                  Advancing educator pipeline design through national speaking, consulting, and thought leadership
                 </h1>
                 <p className="mt-6 max-w-3xl text-lg leading-8 text-stone-300 md:text-xl">
                   Dr. William A. Anders helps institutions build stronger educator pipelines, redesign teacher education for equity, and lead with greater clarity in a changing national landscape. His platform is built for organizations seeking expertise, credibility, and results.
@@ -181,15 +181,21 @@ export default function DrAndersWebsite() {
           <div className="grid gap-10 lg:grid-cols-12">
             <div className="lg:col-span-4">
               <p className="text-sm font-semibold uppercase tracking-[0.24em] text-amber-300">About</p>
-              <h2 className="mt-3 text-3xl font-semibold text-white md:text-5xl">
-                The look of a trusted expert. The substance to match it.
+              <h2 className="mt-3 text-3xl font-semibold text-white md:text-5xl leading-tight md:leading-[1.2]">
+                Leading the redesign of educator pipelines nationwide
               </h2>
             </div>
             <div className="lg:col-span-8">
               <div className="rounded-[2rem] border border-white/10 bg-white/5 p-8 md:p-10">
                 <p className="text-lg leading-8 text-stone-300">
-                  Dr. William A. Anders is a nationally positioned speaker, consultant, and scholar practitioner whose work focuses on teacher education redesign, Black male educator pipelines, and equity driven institutional strategy. He brings together research, executive leadership, and practical systems thinking to help organizations move from fragmented efforts to stronger, more durable outcomes.
+                  Dr. William A. Anders is a nationally positioned speaker, consultant, and scholar practitioner specializing in teacher education redesign and Black male educator pipelines. He helps institutions move from fragmented efforts to aligned, outcome driven systems that strengthen representation, improve persistence, and build durable educator pipelines.
                 </p>
+                {/* ✅ ADD IMAGES HERE */}
+                <div className="mt-10 grid grid-cols-2 md:grid-cols-3 gap-4">
+                  <img src="/about1.png" className="rounded-xl object-cover h-48 w-full" />
+                  <img src="/about2.png" className="rounded-xl object-cover h-48 w-full" />
+                  <img src="/about3.jpg" className="rounded-xl object-cover h-48 w-full" />
+                </div>
                 <div className="mt-8 grid gap-4 md:grid-cols-2">
                   {authorityPoints.map((point) => (
                     <div key={point} className="rounded-2xl border border-white/10 bg-stone-900/70 p-5 text-sm leading-7 text-stone-300">
@@ -206,12 +212,9 @@ export default function DrAndersWebsite() {
           <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
             <div className="max-w-3xl">
               <p className="text-sm font-semibold uppercase tracking-[0.24em] text-amber-300">Services</p>
-              <h2 className="mt-3 text-3xl font-semibold text-white md:text-5xl">
-                Built to attract decision makers who are ready to book, build, and move.
+              <h2 className="mt-3 text-3xl font-semibold text-white md:text-5xl leading-tight md:leading-[1.2]">
+                Strategic services for educators pipeline design and institutional transformation
               </h2>
-              <p className="mt-4 text-lg leading-8 text-stone-300">
-                This website is structured to convert attention into action. Every lane below is designed to communicate authority, trust, and premium value.
-              </p>
             </div>
 
             <div className="mt-12 grid gap-6 md:grid-cols-3">
@@ -253,10 +256,10 @@ export default function DrAndersWebsite() {
             <div className="lg:col-span-5">
               <p className="text-sm font-semibold uppercase tracking-[0.24em] text-amber-300">Speaking</p>
               <h2 className="mt-3 text-3xl font-semibold text-white md:text-5xl">
-                Premium speaker positioning with the look and feel of a booked national expert.
+                Nationally recognized speaker on educator pipeline design and institutional transformation
               </h2>
               <p className="mt-4 text-lg leading-8 text-stone-300">
-                For conference organizers and leadership teams, the site signals polish, clarity, and confidence. It communicates that this is not an emerging voice looking for a chance. This is an established expert ready for the stage.
+                For conference organizers and leadership teams, Dr. Anders delivers more than a keynote. He brings a clear, systems driven approach to educator pipeline design, institutional alignment, and measurable outcomes. He is not an emerging voice, but a nationally positioned expert equipped to move organizations from intention to execution and from fragmented efforts to sustained impact.
               </p>
               <div className="mt-8 rounded-[2rem] border border-amber-300/20 bg-amber-300/10 p-6">
                 <div className="flex items-start gap-4">
@@ -267,12 +270,34 @@ export default function DrAndersWebsite() {
                 </div>
               </div>
             </div>
-            <div className="lg:col-span-7 grid gap-4 md:grid-cols-2">
-              {topics.map((topic) => (
-                <div key={topic} className="rounded-[2rem] border border-white/10 bg-white/5 p-6 text-base leading-7 text-stone-200 shadow-lg shadow-black/10">
-                  {topic}
-                </div>
-              ))}
+            <div className="lg:col-span-7 space-y-6">
+
+              {/* ✅ Images */}
+              <div className="grid grid-cols-2 gap-4">
+                <img
+                  src="/speaker1.png"
+                  alt="Speaking Event 1"
+                  className="rounded-2xl h-56 w-full object-cover shadow-lg"
+                />
+                <img
+                  src="/speaker2.png"
+                  alt="Speaking Event 2"
+                  className="rounded-2xl h-56 w-full object-cover shadow-lg"
+                />
+              </div>
+
+              {/* ✅ Topics */}
+              <div className="grid gap-4 md:grid-cols-2">
+                {topics.map((topic) => (
+                  <div
+                    key={topic}
+                    className="rounded-[2rem] border border-white/10 bg-white/5 p-6 text-base leading-7 text-stone-200 shadow-lg shadow-black/10"
+                  >
+                    {topic}
+                  </div>
+                ))}
+              </div>
+
             </div>
           </div>
         </section>
@@ -282,8 +307,8 @@ export default function DrAndersWebsite() {
             <div className="grid gap-10 lg:grid-cols-12">
               <div className="lg:col-span-5">
                 <p className="text-sm font-semibold uppercase tracking-[0.24em] text-amber-300">Research & Thought Leadership</p>
-                <h2 className="mt-3 text-3xl font-semibold text-white md:text-5xl">
-                  Scholarship that strengthens the brand, deepens trust, and sets you apart.
+                <h2 className="mt-3 text-3xl font-semibold text-white md:text-5xl leading-tight md:leading-[1.2]">
+                  Grounded in research and designed to drive institutional change in educator pipelines
                 </h2>
               </div>
               <div className="lg:col-span-7 space-y-5">
@@ -316,53 +341,61 @@ export default function DrAndersWebsite() {
         </section>
 
         <section id="book" className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
-  <div className="grid gap-10 lg:grid-cols-12 items-center">
-    
-    {/* Left Side */}
-    <div className="lg:col-span-6">
-      <p className="text-sm font-semibold uppercase tracking-[0.24em] text-amber-300">
-        Book
-      </p>
+          <div className="grid gap-10 lg:grid-cols-12 items-center">
 
-      <h2 className="mt-3 text-3xl font-semibold text-white md:text-5xl">
-        Becoming Visible
-      </h2>
+            {/* Left Side */}
+            <div className="lg:col-span-6">
+              <p className="text-sm font-semibold uppercase tracking-[0.24em] text-amber-300">
+                Book
+              </p>
 
-      <p className="mt-4 text-lg text-stone-300 leading-8">
-        A forthcoming book exploring Black male educators, teacher education, 
-        and institutional transformation. This work extends Dr. Anders’ research 
-        into a national conversation on representation, belonging, and systems change.
-      </p>
+              <h2 className="mt-3 text-3xl font-semibold text-white md:text-5xl">
+                Becoming Visible
+              </h2>
 
-      <div className="mt-6 inline-block rounded-full border border-amber-300/30 bg-amber-300/10 px-5 py-2 text-sm text-amber-200">
-        Coming Soon
-      </div>
+              <p className="mt-4 text-lg text-stone-300 leading-8">
+                Becoming Visible redefines educator pipeline design through the experiences of Black male preservice teachers.
+                It challenges systems that demand assimilation and sets a new standard for institutional accountability.
+                Anchored in the C.A.R.E. Model, this book equips leaders with a clear framework to drive equity, strengthen representation,
+                and build sustainable teacher education systems.
+              </p>
 
-      <div className="mt-6 flex gap-4">
-        <button className="rounded-2xl bg-amber-400 px-6 py-3 text-sm font-semibold text-stone-950 opacity-70 cursor-not-allowed">
-          Pre-Order (Coming Soon)
-        </button>
-      </div>
-    </div>
+              <div className="mt-6 inline-block rounded-full border border-amber-300/30 bg-amber-300/10 px-5 py-2 text-sm text-amber-200">
+                Ebook
+              </div>
 
-    {/* Right Side (Book Placeholder) */}
-    <div className="lg:col-span-6 flex justify-center">
-      <div className="h-[380px] w-[260px] rounded-xl border border-white/10 bg-white/5 flex items-center justify-center text-stone-400">
-        Book Cover Coming Soon
-      </div>
-    </div>
+              <div className="mt-6 flex gap-4">
+                <a
+                  href="https://www.amazon.com/dp/B0F9FS32KQ"
+                  target="_blank"
+                  className="rounded-2xl bg-amber-400 px-6 py-3 text-sm font-semibold text-stone-950 transition hover:-translate-y-0.5"
+                >
+                  Preorder Now | Release May 3
+                </a>
+              </div>
+            </div>
 
-  </div>
-</section>
+            {/* Right Side (Book Placeholder) */}
+            <div className="lg:col-span-6 flex justify-center">
+              <img
+                src="/cover.png"
+                alt="Book Cover"
+                className="h-[380px] w-[260px] object-cover rounded-xl border border-white/10 shadow-lg"
+              />
+            </div>
+
+          </div>
+        </section>
 
         <section id="results" className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <div className="max-w-3xl">
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-amber-300">Results & Brand Signals</p>
             <h2 className="mt-3 text-3xl font-semibold text-white md:text-5xl">
-              The visual language of authority, proof, and scale.
+              Demonstrated impact, trusted partnerships, and measurable results at scale
             </h2>
             <p className="mt-4 text-lg leading-8 text-stone-300">
-              Strong sites do not just describe expertise. They signal momentum. This section creates the feeling that clients are booking someone already in demand.
+              This work is not theoretical. It is built through direct experience leading large scale educator pipeline initiatives, advising institutions, and shaping strategy across systems.
+              Each signal below reflects execution, credibility, and sustained impact.
             </p>
           </div>
           <div className="mt-12 grid gap-5 md:grid-cols-4">
@@ -394,16 +427,21 @@ export default function DrAndersWebsite() {
           </div>
         </section>
 
-        <section id="contact" className="border-t border-white/10 bg-gradient-to-br from-amber-400/10 via-stone-950 to-stone-950">
+        <section id="contact" className=" border-t border-white/10 bg-gradient-to-br from-amber-400/10 via-stone-950 to-stone-950">
           <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
-            <div className="rounded-[2rem] border border-amber-300/20 bg-black/20 p-8 md:p-10">
+            <div className=" relative rounded-[2rem] border border-amber-300/20 bg-black/20 p-8 md:p-10">
+              <img
+                src="/contact.jpg"
+                alt="Contact"
+                className="absolute top-6 right-16 w-80 h-77 object-cover rounded-xl border border-white/10 shadow-lg"
+              />
               <div className="max-w-3xl">
                 <p className="text-sm font-semibold uppercase tracking-[0.24em] text-amber-300">Contact</p>
                 <h2 className="mt-3 text-3xl font-semibold text-white md:text-5xl">
                   Book Dr. Anders for speaking, consulting, and strategic partnership.
                 </h2>
                 <p className="mt-4 text-lg leading-8 text-stone-300">
-                  This final section is designed to close the gap between interest and action. It presents you as established, trusted, and ready to engage.
+                  Driving educator pipeline design, institutional alignment, and measurable outcomes from strategy to system-level execution. Each engagement delivers clear frameworks, targeted action, and sustained impact across the educator workforce lifecycle.
                 </p>
               </div>
               <div className="mt-10 grid gap-5 md:grid-cols-3">
