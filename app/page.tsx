@@ -318,21 +318,33 @@ export default function DrAndersWebsite() {
                     A Phenomenologically Informed Study of Black Male Preservice Teachers’ Lived Experiences
                   </h3>
                   <p className="mt-4 text-sm leading-7 text-stone-300">
-                    A doctoral research agenda centered on professional socialization, social representation, and the redesign of teacher education for equity.
+                    A doctoral research agenda examining how Black men navigate and are positioned within teacher education. It advances a systems-level critique while laying the foundation for redesigning educator pipelines through an equity-driven lens.
                   </p>
+                                    {/* ✅ ADD BUTTON HERE */}
+                  <div className="mt-6">
+                    <a
+                      href="https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=1039&context=si_etds"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block rounded-xl bg-amber-400 px-5 py-2.5 text-sm font-semibold text-stone-950 transition hover:-translate-y-0.5"
+                    >
+                      Research Foundation
+                    </a>
+                  </div>
                 </div>
                 <div className="rounded-[2rem] border border-white/10 bg-stone-950/70 p-7">
                   <div className="text-sm uppercase tracking-[0.2em] text-stone-400">Book Platform</div>
                   <h3 className="mt-3 text-2xl font-semibold text-white">Becoming Visible</h3>
                   <p className="mt-4 text-sm leading-7 text-stone-300">
-                    A public facing thought leadership project that expands your research into a national conversation about Black men, teacher education, and institutional transformation.
+                    A public-facing thought leadership platform that translates Dr. Anders’ research into a national conversation on Black men, teacher education, and institutional transformation.
                   </p>
+
                 </div>
                 <div className="rounded-[2rem] border border-white/10 bg-stone-950/70 p-7">
                   <div className="text-sm uppercase tracking-[0.2em] text-stone-400">Framework</div>
                   <h3 className="mt-3 text-2xl font-semibold text-white">The C.A.R.E. Model</h3>
                   <p className="mt-4 text-sm leading-7 text-stone-300">
-                    Community, Access, Representation, and Equity. A signature framework that positions your work as distinct intellectual property and a premium consulting methodology.
+                    Community, Access, Representation, and Equity. Dr. Anders’ signature framework for redesigning educator pipelines and driving institutional change through an equity-centered consulting methodology.
                   </p>
                 </div>
               </div>
@@ -410,18 +422,18 @@ export default function DrAndersWebsite() {
             <div className="grid gap-4 md:grid-cols-3">
               <div className="rounded-2xl border border-white/10 bg-black/20 p-5">
                 <Users className="h-5 w-5 text-amber-300" />
-                <div className="mt-3 text-lg font-medium text-white">Trusted by institutions</div>
-                <p className="mt-2 text-sm leading-7 text-stone-400">Designed to signal credibility to universities, districts, nonprofits, and conference planners.</p>
+                <div className="mt-3 text-lg font-medium text-white">Trusted by Institutions Nationwide</div>
+                <p className="mt-2 text-sm leading-7 text-stone-400">Delivers results across higher education systems, school districts, and cross-sector partnerships focused on strengthening educator pipelines.</p>
               </div>
               <div className="rounded-2xl border border-white/10 bg-black/20 p-5">
                 <Mic2 className="h-5 w-5 text-amber-300" />
-                <div className="mt-3 text-lg font-medium text-white">Built for bookings</div>
-                <p className="mt-2 text-sm leading-7 text-stone-400">Every section moves visitors toward speaking inquiries, consulting conversations, and partnership opportunities.</p>
+                <div className="mt-3 text-lg font-medium text-white">Designed for Strategic Engagement</div>
+                <p className="mt-2 text-sm leading-7 text-stone-400">Each engagement moves leaders from conversation to execution with clear direction, aligned strategy, and measurable next steps.</p>
               </div>
               <div className="rounded-2xl border border-white/10 bg-black/20 p-5">
                 <Award className="h-5 w-5 text-amber-300" />
-                <div className="mt-3 text-lg font-medium text-white">Premium brand feel</div>
-                <p className="mt-2 text-sm leading-7 text-stone-400">Minimal, polished, executive, and positioned above the typical educator consultant website.</p>
+                <div className="mt-3 text-lg font-medium text-white">Built for Measurable Impact </div>
+                <p className="mt-2 text-sm leading-7 text-stone-400">Advances outcomes that matter: stronger recruitment, improved persistence, and sustainable educator workforce development.</p>
               </div>
             </div>
           </div>
