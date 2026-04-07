@@ -320,7 +320,7 @@ export default function DrAndersWebsite() {
                   <p className="mt-4 text-sm leading-7 text-stone-300">
                     A doctoral research agenda examining how Black men navigate and are positioned within teacher education. It advances a systems-level critique while laying the foundation for redesigning educator pipelines through an equity-driven lens.
                   </p>
-                                    {/* ✅ ADD BUTTON HERE */}
+                  {/* ✅ ADD BUTTON HERE */}
                   <div className="mt-6">
                     <a
                       href="https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=1039&context=si_etds"
@@ -445,7 +445,7 @@ export default function DrAndersWebsite() {
               <img
                 src="/contact.jpg"
                 alt="Contact"
-                className="absolute top-6 right-16 w-80 h-77 object-cover rounded-xl border border-white/10 shadow-lg"
+                className="mt-8 w-full rounded-xl border border-white/10 shadow-lg object-cover h-64 lg:absolute lg:top-6 lg:right-16 lg:w-80 lg:h-77 lg:mt-0"
               />
               <div className="max-w-3xl">
                 <p className="text-sm font-semibold uppercase tracking-[0.24em] text-amber-300">Contact</p>
@@ -478,6 +478,7 @@ export default function DrAndersWebsite() {
                   Review Speaking Topics
                 </a>
               </div>
+
             </div>
           </div>
         </section>
