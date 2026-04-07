@@ -447,7 +447,7 @@ export default function DrAndersWebsite() {
                 alt="Contact"
                 className="mt-8 w-full rounded-xl border border-white/10 shadow-lg object-cover h-64 lg:absolute lg:top-6 lg:right-16 lg:w-80 lg:h-77 lg:mt-0"
               />
-              <div className="max-w-3xl">
+              <div className="max-w-3xl mt-6 lg:mt-0">
                 <p className="text-sm font-semibold uppercase tracking-[0.24em] text-amber-300">Contact</p>
                 <h2 className="mt-3 text-3xl font-semibold text-white md:text-5xl">
                   Book Dr. Anders for speaking, consulting, and strategic partnership.
