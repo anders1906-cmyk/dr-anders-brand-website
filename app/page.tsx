@@ -373,16 +373,16 @@ export default function DrAndersWebsite() {
               </p>
 
               <div className="mt-6 inline-block rounded-full border border-amber-300/30 bg-amber-300/10 px-5 py-2 text-sm text-amber-200">
-                Ebook
+                Available in Paperbook or Ebook
               </div>
 
               <div className="mt-6 flex gap-4">
                 <a
-                  href="https://www.amazon.com/dp/B0F9FS32KQ"
+                  href="https://www.amazon.com/dp/B0GW61CDSN"
                   target="_blank"
                   className="rounded-2xl bg-amber-400 px-6 py-3 text-sm font-semibold text-stone-950 transition hover:-translate-y-0.5"
                 >
-                  Preorder Now | Release May 3
+                  Order Your Copy Here
                 </a>
               </div>
             </div>
