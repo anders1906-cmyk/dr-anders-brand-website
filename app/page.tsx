@@ -15,87 +15,88 @@ export default function DrAndersWebsite() {
   ];
 
   const trustBar = [
-    "National speaker on educator diversity and systems change",
-    "Advancing educator diversity across teacher education",
-    "Scholar practitioner and author",
-    "Trusted advisor on teacher education redesign",
+    "Advises institutions on building educator pipelines that recruit, prepare, and retain educators of color",
+    "Leads national conversations on educator diversity and systems change",
+    "Designs research-informed frameworks for teacher education redesign",
+    "Author of Becoming Visible and creator of the C.A.R.E. Model",
   ];
 
   const serviceCards = [
     {
       icon: Building2,
       title: "Institutional Consulting",
-      text: "Advising universities, districts, and mission driven organizations on educator pipeline strategy, teacher education redesign, and equity centered implementation.",
+      text: "Advises universities, school districts, teacher education programs, and mission-driven organizations on educator pipeline strategy, teacher education redesign, workforce alignment, and equity-centered implementation.",
     },
     {
       icon: Mic2,
       title: "Keynotes & Executive Speaking",
-      text: "High impact talks for conferences, leadership retreats, convenings, and educator summits that move audiences from awareness to action.",
+      text: "High-impact talks for conferences, leadership retreats, convenings, affinity spaces, and educator summits that move leaders from awareness to action, and from conversation to implementation.",
     },
     {
       icon: Briefcase,
       title: "Strategic Advisory",
-      text: "Thought partnership for executive leaders navigating institutional complexity, public credibility, stakeholder alignment, and long term positioning.",
+      text: "Thought partnership for executive leaders navigating institutional complexity, public credibility, stakeholder alignment, and long-term positioning within broader education systems.",
     },
   ];
 
   const offerings = [
     {
       title: "Signature Consulting",
-      subtitle: "C.A.R.E. Model Strategy and Implementation",
-      text: "A premium consulting engagement focused on designing educator pipelines through Community, Access, Representation, and Equity. Ideal for institutions ready to move beyond symbolic efforts and build durable systems.",
+      subtitle: "C.A.R.E. Model: Strategy and Implementation",
+      text: "A flagship consulting engagement focused on designing and strengthening educator pipelines through Community, Access, Representation, and Equity. Built for institutions ready to move beyond symbolic efforts and implement durable, equity-centered systems.",
       bullets: [
-        "Pipeline design and systems mapping",
-        "Recruitment and retention strategy",
-        "Program redesign for belonging and persistence",
-        "Leadership advisory and implementation roadmaps",
+        "Educator pipeline design and systems mapping",
+        "Recruitment, persistence, and retention strategy",
+        "Program redesign for belonging and long-term impact",
+        "Executive advisory and implementation roadmaps",
       ],
     },
     {
       title: "Speaking & Convenings",
-      subtitle: "National speaker. Clear message. Executive presence.",
-      text: "Built for organizations that want a speaker who can command the room, sharpen the conversation, and leave leaders with a stronger strategic frame.",
+      subtitle: "National Speaker. Strategic Clarity. Clear Message.",
+      text: "Designed for organizations seeking a speaker who can command the room, sharpen the conversation, and equip leaders with a stronger strategic lens for educator pipeline design, equity, and institutional transformation.",
       bullets: [
         "Conference keynotes",
         "Executive roundtables",
-        "Panel moderation and featured conversations",
-        "Campus and policy convenings",
+        "Moderated panels and featured conversations",
+        "Campus, district, and policy convenings",
       ],
     },
     {
       title: "Executive Intensives",
       subtitle: "Focused sessions for leadership teams",
-      text: "Tailored workshops and strategic intensives that help leaders align around educator workforce goals, institutional barriers, and practical next moves.",
+      text: "Tailored workshops and strategic intensives that help leadership teams align around educator workforce goals, institutional barriers, partnership strategy, and practical next moves.",
       bullets: [
         "Senior leadership retreats",
-        "Department and faculty strategy sessions",
-        "Cross sector partnership design",
-        "Equity centered planning intensives",
+        "Department, faculty, and staff strategy sessions",
+        "Cross-sector partnership design",
+        "Equity-centered planning intensives",
+        "Dean and executive leadership briefings"
       ],
     },
   ];
 
   const topics = [
     "Building and sustaining Black male educator pipelines",
-    "Teacher education redesign for equity and belonging",
-    "From recruitment to workforce transition",
+    "Teacher education redesign for equity, belonging, and persistence",
+    "Recruitment, preparation, certification, and workforce transition",
     "Representation, mentorship, and systems change",
-    "The future of educator diversity strategy",
-    "Institutional leadership in a changing talent landscape",
+    "Educator diversity strategy in a changing national landscape",
+    "Institutional leadership, partnership, and implementation",
   ];
 
   const stats = [
     { value: "16", label: "Campuses engaged across a coordinated educator pipeline network at scale" },
-    { value: "1", label: "National level voice with a clear niche" },
-    { value: "3", label: "Primary lanes: speaking, consulting, thought leadership" },
-    { value: "100%", label: "Positioned around equity driven institutional design" },
+    { value: "1", label: "National voice with a clear lane in educator pipeline design" },
+    { value: "3", label: "Primary lanes: consulting, speaking, and thought leadership" },
+    { value: "100%", label: "Positioned around equity-driven institutional design and measurable outcomes" },
   ];
 
   const authorityPoints = [
-    "Doctoral research centered on Black male preservice teachers and the redesign of teacher education for equity",
-    "Leadership experience guiding one of the nation’s largest initiatives focused on men of color in teacher education",
-    "Public voice positioned across research, policy, institutional practice, and community based leadership",
-    "Book platform anchored in Becoming Visible and the C.A.R.E. Model",
+    "Doctoral research examining Black male preservice teachers and the structural redesign of teacher education for equity",
+    "Leadership experience guiding large-scale, cross-institutional educator pipeline efforts focused on men of color",
+    "National voice across research, policy, institutional practice, and community-based leadership",
+    "Author of Becoming Visible and creator of the C.A.R.E. Model",
   ];
 
   return (
@@ -128,30 +129,32 @@ export default function DrAndersWebsite() {
               <div className="lg:col-span-7">
                 <div className="inline-flex items-center gap-2 rounded-full border border-amber-300/20 bg-amber-300/10 px-4 py-1.5 text-sm text-amber-200">
                   <Sparkles className="h-4 w-4" />
-                  Trusted voice in teacher education, equity, and institutional design
+                  Trusted voice in educator pipeline design, teacher education redesign, and equity-driven institutional strategy
                 </div>
                 <h1 className="mt-6 max-w-4xl text-5xl font-semibold leading-tight tracking-tight text-white md:text-6xl">
-                  Advancing educator pipeline design through national speaking, consulting, and thought leadership
+                  Designing and strengthening educator pipelines through national speaking, consulting, and research-driven frameworks
                 </h1>
                 <p className="mt-6 max-w-3xl text-lg leading-8 text-stone-300 md:text-xl">
-                  Dr. William A. Anders helps institutions build stronger educator pipelines, redesign teacher education for equity, and lead with greater clarity in a changing national landscape. His platform is built for organizations seeking expertise, credibility, and results.
+                  Dr. William A. Anders works with school districts, higher education institutions, and education leaders to design stronger educator pipelines, align teacher preparation with workforce outcomes, and lead with clarity in a shifting national landscape. His work supports organizations seeking strategic direction, measurable impact, and sustainable results.
                 </p>
                 <div className="mt-8 flex flex-wrap gap-4">
                   <a href="#contact" className="inline-flex items-center gap-2 rounded-2xl bg-amber-400 px-6 py-3.5 text-sm font-semibold text-stone-950 shadow-xl shadow-amber-400/20 transition hover:-translate-y-0.5">
-                    Request a Booking
+                    Book Dr. Anders
                     <ArrowRight className="h-4 w-4" />
                   </a>
                   <a href="#services" className="rounded-2xl border border-white/15 px-6 py-3.5 text-sm font-semibold text-white transition hover:bg-white/5">
-                    View Services
+                    Explore Consulting Services
                   </a>
                 </div>
               </div>
 
-              <div className="lg:col-span-5">
+              <div className="lg:col-span-5 space-y-6">
+                {/* ✅ NEW IMAGE */}
+
                 <div className="rounded-[2rem] border border-white/10 bg-white/5 p-7 shadow-2xl shadow-black/30 backdrop-blur">
                   <div className="text-sm uppercase tracking-[0.24em] text-amber-300">Executive Positioning</div>
                   <p className="mt-4 text-2xl font-medium leading-9 text-white">
-                    Scholar practitioner. Systems builder. National advocate for redesigning educator preparation with equity at the center.
+                    Scholar-practitioner. Systems builder. National voice on redesigning educator pipelines with equity at the center.
                   </p>
                   <div className="mt-6 space-y-3">
                     {trustBar.map((item) => (
@@ -188,7 +191,7 @@ export default function DrAndersWebsite() {
             <div className="lg:col-span-8">
               <div className="rounded-[2rem] border border-white/10 bg-white/5 p-8 md:p-10">
                 <p className="text-lg leading-8 text-stone-300">
-                  Dr. William A. Anders is a nationally positioned speaker, consultant, and scholar practitioner specializing in teacher education redesign and Black male educator pipelines. He helps institutions move from fragmented efforts to aligned, outcome driven systems that strengthen representation, improve persistence, and build durable educator pipelines.
+                  Dr. William A. Anders is a nationally recognized speaker, consultant, and scholar-practitioner specializing in teacher education redesign, educator pipeline strategy, and Black male educator pipelines. He works with school districts, higher education institutions, teacher education programs, faculty, staff, deans, and executive leaders to move from fragmented efforts to aligned, outcome-driven systems that strengthen representation, improve persistence, and build durable educator pipelines.
                 </p>
                 {/* ✅ ADD IMAGES HERE */}
                 <div className="mt-10 grid grid-cols-2 md:grid-cols-3 gap-4">
@@ -213,7 +216,7 @@ export default function DrAndersWebsite() {
             <div className="max-w-3xl">
               <p className="text-sm font-semibold uppercase tracking-[0.24em] text-amber-300">Services</p>
               <h2 className="mt-3 text-3xl font-semibold text-white md:text-5xl leading-tight md:leading-[1.2]">
-                Strategic services for educators pipeline design and institutional transformation
+                Strategic services for educator pipeline design and institutional transformation
               </h2>
             </div>
 
@@ -256,16 +259,16 @@ export default function DrAndersWebsite() {
             <div className="lg:col-span-5">
               <p className="text-sm font-semibold uppercase tracking-[0.24em] text-amber-300">Speaking</p>
               <h2 className="mt-3 text-3xl font-semibold text-white md:text-5xl">
-                Nationally recognized speaker on educator pipeline design and institutional transformation
+                Nationally recognized speaker on educator pipeline design, teacher education redesign, and institutional transformation
               </h2>
               <p className="mt-4 text-lg leading-8 text-stone-300">
-                For conference organizers and leadership teams, Dr. Anders delivers more than a keynote. He brings a clear, systems driven approach to educator pipeline design, institutional alignment, and measurable outcomes. He is not an emerging voice, but a nationally positioned expert equipped to move organizations from intention to execution and from fragmented efforts to sustained impact.
+                For conference organizers, school districts, higher education institutions, and leadership teams, Dr. Anders delivers more than a keynote. He brings a clear, systems-driven approach to educator pipeline design, teacher education redesign, institutional alignment, and measurable outcomes. He equips organizations to move from intention to execution and from fragmented efforts to sustained impact.
               </p>
               <div className="mt-8 rounded-[2rem] border border-amber-300/20 bg-amber-300/10 p-6">
                 <div className="flex items-start gap-4">
                   <Quote className="mt-1 h-5 w-5 text-amber-300" />
                   <p className="text-base leading-8 text-amber-100">
-                    Designing educator pipelines that do not just recruit, but sustain, develop, and transform.
+                    Designing educator pipelines that recruit, sustain, develop, and transform the future educator workforce.
                   </p>
                 </div>
               </div>
@@ -308,7 +311,7 @@ export default function DrAndersWebsite() {
               <div className="lg:col-span-5">
                 <p className="text-sm font-semibold uppercase tracking-[0.24em] text-amber-300">Research & Thought Leadership</p>
                 <h2 className="mt-3 text-3xl font-semibold text-white md:text-5xl leading-tight md:leading-[1.2]">
-                  Grounded in research and designed to drive institutional change in educator pipelines
+                  Grounded in research and designed to drive institutional change across educator pipelines and teacher education systems
                 </h2>
               </div>
               <div className="lg:col-span-7 space-y-5">
@@ -318,7 +321,7 @@ export default function DrAndersWebsite() {
                     A Phenomenologically Informed Study of Black Male Preservice Teachers’ Lived Experiences
                   </h3>
                   <p className="mt-4 text-sm leading-7 text-stone-300">
-                    A doctoral research agenda examining how Black men navigate and are positioned within teacher education. It advances a systems-level critique while laying the foundation for redesigning educator pipelines through an equity-driven lens.
+                    A doctoral research agenda examining how Black male preservice teachers navigate and are positioned within teacher education. It advances a systems-level critique and lays the foundation for redesigning educator pipelines through an equity-driven lens.
                   </p>
                   {/* ✅ ADD BUTTON HERE */}
                   <div className="mt-6">
@@ -336,7 +339,7 @@ export default function DrAndersWebsite() {
                   <div className="text-sm uppercase tracking-[0.2em] text-stone-400">Book Platform</div>
                   <h3 className="mt-3 text-2xl font-semibold text-white">Becoming Visible</h3>
                   <p className="mt-4 text-sm leading-7 text-stone-300">
-                    A public-facing thought leadership platform that translates Dr. Anders’ research into a national conversation on Black men, teacher education, and institutional transformation.
+                    A public-facing thought leadership platform that translates Dr. Anders’ research into a national conversation on Black men, teacher education, educator pipeline design, and institutional transformation.
                   </p>
 
                 </div>
@@ -344,7 +347,7 @@ export default function DrAndersWebsite() {
                   <div className="text-sm uppercase tracking-[0.2em] text-stone-400">Framework</div>
                   <h3 className="mt-3 text-2xl font-semibold text-white">The C.A.R.E. Model</h3>
                   <p className="mt-4 text-sm leading-7 text-stone-300">
-                    Community, Access, Representation, and Equity. Dr. Anders’ signature framework for redesigning educator pipelines and driving institutional change through an equity-centered consulting methodology.
+                    Community, Access, Representation, and Equity. Dr. Anders’ signature framework for helping institutions design, assess, and strengthen educator pipelines through an equity-centered consulting methodology.
                   </p>
                 </div>
               </div>
@@ -366,14 +369,13 @@ export default function DrAndersWebsite() {
               </h2>
 
               <p className="mt-4 text-lg text-stone-300 leading-8">
-                Becoming Visible redefines educator pipeline design through the experiences of Black male preservice teachers.
-                It challenges systems that demand assimilation and sets a new standard for institutional accountability.
-                Anchored in the C.A.R.E. Model, this book equips leaders with a clear framework to drive equity, strengthen representation,
-                and build sustainable teacher education systems.
+                Becoming Visible translates Dr. Anders’ research and lived experience into a clear call for teacher education redesign. 
+                Through the experiences of Black male preservice teachers, the book challenges systems that demand assimilation and offers leaders a framework for building educator pipelines rooted in community, access, 
+                representation, and equity.
               </p>
 
               <div className="mt-6 inline-block rounded-full border border-amber-300/30 bg-amber-300/10 px-5 py-2 text-sm text-amber-200">
-                Available in Paperbook or Ebook
+                Available in Paperback, Hardback, and Ebook
               </div>
 
               <div className="mt-6 flex gap-4">
@@ -382,7 +384,7 @@ export default function DrAndersWebsite() {
                   target="_blank"
                   className="rounded-2xl bg-amber-400 px-6 py-3 text-sm font-semibold text-stone-950 transition hover:-translate-y-0.5"
                 >
-                  Order Your Copy Here
+                  Order Becoming Visible
                 </a>
               </div>
             </div>
@@ -403,11 +405,11 @@ export default function DrAndersWebsite() {
           <div className="max-w-3xl">
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-amber-300">Results & Brand Signals</p>
             <h2 className="mt-3 text-3xl font-semibold text-white md:text-5xl">
-              Demonstrated impact, trusted partnerships, and measurable results at scale
+              Demonstrated impact, trusted partnerships, and systems-level results at scale
             </h2>
             <p className="mt-4 text-lg leading-8 text-stone-300">
-              This work is not theoretical. It is built through direct experience leading large scale educator pipeline initiatives, advising institutions, and shaping strategy across systems.
-              Each signal below reflects execution, credibility, and sustained impact.
+              This work reflects applied leadership across educator pipeline design, institutional advising, and systems-level strategy. 
+              Each signal represents execution, credibility, and sustained impact.
             </p>
           </div>
           <div className="mt-12 grid gap-5 md:grid-cols-4">
@@ -423,17 +425,17 @@ export default function DrAndersWebsite() {
               <div className="rounded-2xl border border-white/10 bg-black/20 p-5">
                 <Users className="h-5 w-5 text-amber-300" />
                 <div className="mt-3 text-lg font-medium text-white">Trusted by Institutions Nationwide</div>
-                <p className="mt-2 text-sm leading-7 text-stone-400">Delivers results across higher education systems, school districts, and cross-sector partnerships focused on strengthening educator pipelines.</p>
+                <p className="mt-2 text-sm leading-7 text-stone-400">Supports higher education systems, school districts, teacher education programs, and cross-sector partners focused on strengthening educator pipelines.</p>
               </div>
               <div className="rounded-2xl border border-white/10 bg-black/20 p-5">
                 <Mic2 className="h-5 w-5 text-amber-300" />
                 <div className="mt-3 text-lg font-medium text-white">Designed for Strategic Engagement</div>
-                <p className="mt-2 text-sm leading-7 text-stone-400">Each engagement moves leaders from conversation to execution with clear direction, aligned strategy, and measurable next steps.</p>
+                <p className="mt-2 text-sm leading-7 text-stone-400">Each engagement moves leaders from conversation to execution through clear direction, aligned strategy, and measurable next steps.</p>
               </div>
               <div className="rounded-2xl border border-white/10 bg-black/20 p-5">
                 <Award className="h-5 w-5 text-amber-300" />
                 <div className="mt-3 text-lg font-medium text-white">Built for Measurable Impact </div>
-                <p className="mt-2 text-sm leading-7 text-stone-400">Advances outcomes that matter: stronger recruitment, improved persistence, and sustainable educator workforce development.</p>
+                <p className="mt-2 text-sm leading-7 text-stone-400">Advances outcomes that matter: stronger recruitment, improved persistence, certification progress, workforce transition, and sustainable educator pipeline development.</p>
               </div>
             </div>
           </div>
@@ -450,10 +452,11 @@ export default function DrAndersWebsite() {
               <div className="max-w-3xl mt-6 lg:mt-0">
                 <p className="text-sm font-semibold uppercase tracking-[0.24em] text-amber-300">Contact</p>
                 <h2 className="mt-3 text-3xl font-semibold text-white md:text-5xl">
-                  Book Dr. Anders for speaking, consulting, and strategic partnership.
+                  Book Dr. Anders for consulting, speaking, and strategic partnership.
                 </h2>
                 <p className="mt-4 text-lg leading-8 text-stone-300">
-                  Driving educator pipeline design, institutional alignment, and measurable outcomes from strategy to system-level execution. Each engagement delivers clear frameworks, targeted action, and sustained impact across the educator workforce lifecycle.
+                  Partner with Dr. Anders to strengthen educator pipelines, align teacher education with workforce outcomes, 
+                  and move leadership teams from strategy to system-level execution. Each engagement delivers clear frameworks, targeted action, and sustained impact across the educator workforce lifecycle.
                 </p>
               </div>
               <div className="mt-10 grid gap-5 md:grid-cols-3">
@@ -463,16 +466,16 @@ export default function DrAndersWebsite() {
                 </div>
                 <div className="rounded-2xl border border-white/10 bg-stone-950/80 p-5">
                   <div className="text-sm text-stone-400">Positioning</div>
-                  <div className="mt-2 text-lg font-medium text-white">National speaker and consultant</div>
+                  <div className="mt-2 text-lg font-medium text-white">Consultant, national speaker, and education systems architect</div>
                 </div>
                 <div className="rounded-2xl border border-white/10 bg-stone-950/80 p-5">
                   <div className="text-sm text-stone-400">Primary Markets</div>
-                  <div className="mt-2 text-lg font-medium text-white">Higher education, K 12, nonprofits, conferences</div>
+                  <div className="mt-2 text-lg font-medium text-white">Higher education institutions, school districts, teacher education programs, leadership teams, nonprofits, and conferences</div>
                 </div>
               </div>
               <div className="mt-8 flex flex-wrap gap-4">
                 <a href="mailto:Anders1906@gmail.com" className="rounded-2xl bg-amber-400 px-6 py-3.5 text-sm font-semibold text-stone-950 transition hover:-translate-y-0.5">
-                  Inquire by Email
+                  Inquire About Consulting or Speaking
                 </a>
                 <a href="#speaking" className="rounded-2xl border border-white/15 px-6 py-3.5 text-sm font-semibold text-white transition hover:bg-white/5">
                   Review Speaking Topics
