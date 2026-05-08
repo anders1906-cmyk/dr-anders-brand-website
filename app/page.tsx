@@ -86,7 +86,7 @@ export default function DrAndersWebsite() {
   ];
 
   const stats = [
-    { value: "16", label: "Campuses engaged across a coordinated educator pipeline network at scale" },
+    { label: "Large-scale educator pipeline coordination across multiple teacher education institutions" },
     { value: "1", label: "National voice with a clear lane in educator pipeline design" },
     { value: "3", label: "Primary lanes: consulting, speaking, and thought leadership" },
     { value: "100%", label: "Positioned around equity-driven institutional design and measurable outcomes" },
@@ -147,36 +147,35 @@ export default function DrAndersWebsite() {
                   </a>
                 </div>
               </div>
-
-              <div className="lg:col-span-5 space-y-6">
-                {/* ✅ NEW IMAGE */}
-
-                <div className="rounded-[2rem] border border-white/10 bg-white/5 p-7 shadow-2xl shadow-black/30 backdrop-blur">
-                  <div className="text-sm uppercase tracking-[0.24em] text-amber-300">Executive Positioning</div>
-                  <p className="mt-4 text-2xl font-medium leading-9 text-white">
-                    Scholar-practitioner. Systems builder. National voice on redesigning educator pipelines with equity at the center.
-                  </p>
-                  <div className="mt-6 space-y-3">
-                    {trustBar.map((item) => (
-                      <div key={item} className="rounded-2xl border border-white/10 bg-stone-900/80 px-4 py-3 text-sm text-stone-300">
-                        {item}
-                      </div>
-                    ))}
-                  </div>
-                </div>
+              <div className="lg:col-span-5 flex items-start justify-center lg:-mt-52">
+                <img
+                  src="/home.png"
+                  alt="Dr. Anders leading a session"
+                  className="rounded-[2rem] w-full object-cover shadow-2xl shadow-black/40 border border-white/10 h-[450px]"
+                />
               </div>
+
+
             </div>
           </div>
         </section>
 
         <section className="border-y border-white/10 bg-white/5">
-          <div className="mx-auto grid max-w-7xl gap-4 px-6 py-6 text-sm text-stone-300 lg:grid-cols-4 lg:px-8">
-            {trustBar.map((item) => (
-              <div key={item} className="flex items-center gap-3 rounded-xl border border-white/10 bg-stone-950/50 px-4 py-3">
-                <Award className="h-4 w-4 text-amber-300" />
-                <span>{item}</span>
-              </div>
-            ))}
+          <div className="mx-auto max-w-7xl px-6 py-10 lg:px-8">
+            <div className="mb-6">
+              <p className="text-sm font-semibold uppercase tracking-[0.24em] text-amber-300">Executive Positioning</p>
+              <p className="mt-3 text-2xl font-medium leading-9 text-white max-w-3xl">
+                Scholar-practitioner. Systems builder. National voice on redesigning educator pipelines with equity at the center.
+              </p>
+            </div>
+            <div className="grid gap-4 lg:grid-cols-4 text-sm text-stone-300">
+              {trustBar.map((item) => (
+                <div key={item} className="flex items-center gap-3 rounded-xl border border-white/10 bg-stone-950/50 px-4 py-3">
+                  <Award className="h-4 w-4 text-amber-300 shrink-0" />
+                  <span>{item}</span>
+                </div>
+              ))}
+            </div>
           </div>
         </section>
 
@@ -185,7 +184,7 @@ export default function DrAndersWebsite() {
             <div className="lg:col-span-4">
               <p className="text-sm font-semibold uppercase tracking-[0.24em] text-amber-300">About</p>
               <h2 className="mt-3 text-3xl font-semibold text-white md:text-5xl leading-tight md:leading-[1.2]">
-                Leading the redesign of educator pipelines nationwide
+                Designing educator pipelines that advance equity, access, and long-term impact nationwide
               </h2>
             </div>
             <div className="lg:col-span-8">
@@ -356,40 +355,35 @@ export default function DrAndersWebsite() {
         </section>
 
         <section id="book" className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
+
+          {/* ── BOOK 1 ── */}
           <div className="grid gap-10 lg:grid-cols-12 items-center">
 
-            {/* Left Side */}
             <div className="lg:col-span-6">
               <p className="text-sm font-semibold uppercase tracking-[0.24em] text-amber-300">
                 Book
               </p>
-
               <h2 className="mt-3 text-3xl font-semibold text-white md:text-5xl">
                 Becoming Visible
               </h2>
-
               <p className="mt-4 text-lg text-stone-300 leading-8">
-                Becoming Visible translates Dr. Anders’ research and lived experience into a clear call for teacher education redesign. 
-                Through the experiences of Black male preservice teachers, the book challenges systems that demand assimilation and offers leaders a framework for building educator pipelines rooted in community, access, 
+                Becoming Visible translates Dr. Anders' research and lived experience into a clear call for teacher education redesign.
+                Through the experiences of Black male preservice teachers, the book challenges systems that demand assimilation and offers leaders a framework for building educator pipelines rooted in community, access,
                 representation, and equity.
               </p>
-
               <div className="mt-6 inline-block rounded-full border border-amber-300/30 bg-amber-300/10 px-5 py-2 text-sm text-amber-200">
                 Available in Paperback, Hardback, and Ebook
               </div>
-
               <div className="mt-6 flex gap-4">
-                <a
-                  href="https://www.amazon.com/dp/B0GW61CDSN"
+
+                <a href="https://www.amazon.com/dp/B0GW61CDSN"
                   target="_blank"
-                  className="rounded-2xl bg-amber-400 px-6 py-3 text-sm font-semibold text-stone-950 transition hover:-translate-y-0.5"
-                >
+                  className="rounded-2xl bg-amber-400 px-6 py-3 text-sm font-semibold text-stone-950 transition hover:-translate-y-0.5">
                   Order Becoming Visible
                 </a>
               </div>
             </div>
 
-            {/* Right Side (Book Placeholder) */}
             <div className="lg:col-span-6 flex justify-center">
               <img
                 src="/cover.png"
@@ -399,7 +393,42 @@ export default function DrAndersWebsite() {
             </div>
 
           </div>
-        </section>
+
+          {/* ── BOOK 2 ── */}
+          <div className="grid gap-10 lg:grid-cols-12 items-center mt-20 pt-20 border-t border-white/10">
+
+            <div className="lg:col-span-6">
+              <h2 className="mt-3 text-3xl font-semibold text-white md:text-5xl">
+                BUILT DIFFERENT
+              </h2>
+              <p className="mt-4 text-lg text-stone-300 leading-8">
+                 Built Different is a practical and personal guide for students navigating the HBCU journey from choosing the right institution to building success academically, 
+                 socially, and professionally. Grounded in the C.A.R.E. Model, the book offers real-world strategies, mentorship insights, 
+                 and leadership lessons that help first-generation students build confidence, community, and purpose through the HBCU experience.
+                
+              </p>
+              
+              <div className="mt-6 flex gap-4">
+
+                <a href="#"
+                  target="_blank"
+                  className="rounded-2xl bg-amber-400 px-6 py-3 text-sm font-semibold text-stone-950 transition hover:-translate-y-0.5">
+                  Coming Soon
+                </a>
+              </div>
+            </div>
+
+            <div className="lg:col-span-6 flex justify-center">
+              <img
+                src="/cover2.png"
+                alt="Book Cover 2"
+                className="h-[380px] w-[260px] object-cover rounded-xl border border-white/10 shadow-lg"
+              />
+            </div>
+
+          </div>
+
+        </section >
 
         <section id="results" className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <div className="max-w-3xl">
@@ -408,7 +437,7 @@ export default function DrAndersWebsite() {
               Demonstrated impact, trusted partnerships, and systems-level results at scale
             </h2>
             <p className="mt-4 text-lg leading-8 text-stone-300">
-              This work reflects applied leadership across educator pipeline design, institutional advising, and systems-level strategy. 
+              This work reflects applied leadership across educator pipeline design, institutional advising, and systems-level strategy.
               Each signal represents execution, credibility, and sustained impact.
             </p>
           </div>
@@ -455,7 +484,7 @@ export default function DrAndersWebsite() {
                   Book Dr. Anders for consulting, speaking, and strategic partnership.
                 </h2>
                 <p className="mt-4 text-lg leading-8 text-stone-300">
-                  Partner with Dr. Anders to strengthen educator pipelines, align teacher education with workforce outcomes, 
+                  Partner with Dr. Anders to strengthen educator pipelines, align teacher education with workforce outcomes,
                   and move leadership teams from strategy to system-level execution. Each engagement delivers clear frameworks, targeted action, and sustained impact across the educator workforce lifecycle.
                 </p>
               </div>
@@ -485,7 +514,7 @@ export default function DrAndersWebsite() {
             </div>
           </div>
         </section>
-      </main>
-    </div>
+      </main >
+    </div >
   );
 }
