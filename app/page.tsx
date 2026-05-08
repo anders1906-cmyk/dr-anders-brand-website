@@ -107,7 +107,15 @@ export default function DrAndersWebsite() {
             <div className="text-lg font-semibold tracking-wide text-white">Dr. William A. Anders</div>
             <div className="text-sm text-stone-400">National Speaker | Consultant | Educator Pipeline Expert</div>
           </div>
+          {/* Mobile Home button — only visible on small screens */}
+          <a href="#" className="lg:hidden rounded-full border border-white/15 px-4 py-2 text-sm font-semibold text-white transition hover:bg-white/5">
+            Home
+          </a>
+          {/* Desktop nav — only visible on large screens */}
           <nav className="hidden items-center gap-6 lg:flex">
+            <a href="#" className="text-sm text-stone-300 transition hover:text-white">
+              Home
+            </a>
             {nav.map((item) => (
               <a key={item.label} href={item.href} className="text-sm text-stone-300 transition hover:text-white">
                 {item.label}
@@ -402,12 +410,12 @@ export default function DrAndersWebsite() {
                 BUILT DIFFERENT
               </h2>
               <p className="mt-4 text-lg text-stone-300 leading-8">
-                 Built Different is a practical and personal guide for students navigating the HBCU journey from choosing the right institution to building success academically, 
-                 socially, and professionally. Grounded in the C.A.R.E. Model, the book offers real-world strategies, mentorship insights, 
-                 and leadership lessons that help first-generation students build confidence, community, and purpose through the HBCU experience.
-                
+                Built Different is a practical and personal guide for students navigating the HBCU journey from choosing the right institution to building success academically,
+                socially, and professionally. Grounded in the C.A.R.E. Model, the book offers real-world strategies, mentorship insights,
+                and leadership lessons that help first-generation students build confidence, community, and purpose through the HBCU experience.
+
               </p>
-              
+
               <div className="mt-6 flex gap-4">
 
                 <a href="#"
