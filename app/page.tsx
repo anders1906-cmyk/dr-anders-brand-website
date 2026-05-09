@@ -372,7 +372,7 @@ export default function DrAndersWebsite() {
                 Book
               </p>
               <h2 className="mt-3 text-3xl font-semibold text-white md:text-5xl">
-                Becoming Visible
+                BECOMING VISIBLE
               </h2>
               <p className="mt-4 text-lg text-stone-300 leading-8">
                 Becoming Visible translates Dr. Anders' research and lived experience into a clear call for teacher education redesign.
