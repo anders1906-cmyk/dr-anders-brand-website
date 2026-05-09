@@ -8,9 +8,9 @@ export default function DrAndersWebsite() {
     { label: "Services", href: "#services" },
     { label: "Speaking", href: "#speaking" },
     { label: "Research", href: "#research" },
-    { label: "Book", href: "#book" },
+    { label: "Books", href: "#book" },
     { label: "Results", href: "#results" },
-    { label: "Contact", href: "#contact" },
+    {  },
 
   ];
 
@@ -122,7 +122,7 @@ export default function DrAndersWebsite() {
               </a>
             ))}
             <a href="#contact" className="rounded-full bg-amber-400 px-5 py-2.5 text-sm font-semibold text-stone-950 transition hover:-translate-y-0.5">
-              Book Now
+              Contact
             </a>
           </nav>
         </div>
@@ -369,7 +369,7 @@ export default function DrAndersWebsite() {
 
             <div className="lg:col-span-6">
               <p className="text-sm font-semibold uppercase tracking-[0.24em] text-amber-300">
-                Book
+                Books
               </p>
               <h2 className="mt-3 text-3xl font-semibold text-white md:text-5xl">
                 BECOMING VISIBLE
