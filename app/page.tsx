@@ -9,8 +9,7 @@ export default function DrAndersWebsite() {
     { label: "Speaking", href: "#speaking" },
     { label: "Research", href: "#research" },
     { label: "Books", href: "#book" },
-    { label: "Results", href: "#results" },
-    {  },
+    { label: "Results", href: "#results" }
 
   ];
 
@@ -113,16 +112,13 @@ export default function DrAndersWebsite() {
           </a>
           {/* Desktop nav — only visible on large screens */}
           <nav className="hidden items-center gap-6 lg:flex">
-            <a href="#" className="text-sm text-stone-300 transition hover:text-white">
-              Home
-            </a>
-            {nav.map((item) => (
+            {[{ label: "Home", href: "#" }, ...nav].map((item) => (
               <a key={item.label} href={item.href} className="text-sm text-stone-300 transition hover:text-white">
                 {item.label}
               </a>
             ))}
             <a href="#contact" className="rounded-full bg-amber-400 px-5 py-2.5 text-sm font-semibold text-stone-950 transition hover:-translate-y-0.5">
-              Contact
+              Book Now
             </a>
           </nav>
         </div>
@@ -427,11 +423,26 @@ export default function DrAndersWebsite() {
             </div>
 
             <div className="lg:col-span-6 flex justify-center">
-              <img
-                src="/cover2.png"
-                alt="Book Cover 2"
-                className="h-[380px] w-[260px] object-cover rounded-xl border border-white/10 shadow-lg"
-              />
+              <div className="relative h-[380px] w-[260px] rounded-xl border border-amber-300/40 bg-gradient-to-br from-stone-900 to-black shadow-2xl overflow-hidden">
+
+                {/* Decorative border */}
+                <div className="absolute inset-3 rounded-lg border border-dashed border-amber-300/30" />
+
+                {/* Question Mark */}
+                <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6">
+                  <div className="text-8xl font-bold text-amber-300 opacity-90">
+                    ?
+                  </div>
+
+                  <div className="mt-6 text-sm uppercase tracking-[0.25em] text-amber-200">
+                    Cover Reveal
+                  </div>
+
+                  <div className="mt-2 text-3xl font-semibold text-amber-300">
+                    Coming Soon
+                  </div>
+                </div>
+              </div>
             </div>
 
           </div>
