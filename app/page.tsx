@@ -189,7 +189,7 @@ export default function DrAndersWebsite() {
 
               <div className="grid gap-4 md:grid-cols-2 auto-rows-fr text-sm text-stone-300">
                 {trustBar.map((item) => (
-                  <div key={item} className="flex h-full items-center gap-3 rounded-xl border border-white/10 bg-stone-950 px-4 py-3">
+                  <div key={item} className="flex h-full items-center gap-3 rounded-xl border-2 border-[#917158]/60 bg-stone-950 px-4 py-3">
                     <Award className="h-4 w-4 text-[#B29671] shrink-0" />
                     <span>{item}</span>
                   </div>
@@ -244,7 +244,7 @@ export default function DrAndersWebsite() {
               {serviceCards.map((card) => {
                 const Icon = card.icon;
                 return (
-                  <div key={card.title} className="rounded-[2rem] border border-white/10 bg-stone-950 p-7 shadow-xl shadow-black/20">
+                  <div key={card.title} className="rounded-[2rem] border-2 border-[#917158]/60 bg-stone-950 p-7 shadow-xl shadow-black/20">
                     <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#917158]/20 text-[#B29671]">
                       <Icon className="h-6 w-6" />
                     </div>
@@ -257,13 +257,13 @@ export default function DrAndersWebsite() {
 
             <div className="mt-12 grid gap-6 lg:grid-cols-3">
               {offerings.map((item) => (
-                <div key={item.title} className="rounded-[2rem] border border-white/10 bg-stone-950 p-7">
+                <div key={item.title} className="rounded-[2rem] border-2 border-[#917158]/60 bg-stone-950 p-7">
                   <div className="text-sm uppercase tracking-[0.2em] text-stone-400">{item.title}</div>
                   <h3 className="mt-3 text-2xl font-semibold text-white">{item.subtitle}</h3>
                   <p className="mt-4 text-sm leading-7 text-stone-300">{item.text}</p>
                   <div className="mt-6 space-y-3">
                     {item.bullets.map((bullet) => (
-                      <div key={bullet} className="rounded-xl border border-white/10 bg-stone-900 px-4 py-3 text-sm text-stone-300">
+                      <div key={bullet} className="rounded-xl border-2 border-[#917158]/60 bg-stone-900 px-4 py-3 text-sm text-stone-300">
                         {bullet}
                       </div>
                     ))}
@@ -336,7 +336,7 @@ export default function DrAndersWebsite() {
                 </h2>
               </div>
               <div className="lg:col-span-7 space-y-5">
-                <div className="rounded-[2rem] border border-white/10 bg-stone-950 p-7">
+                <div className="rounded-[2rem] border-2 border-[#917158]/60 bg-stone-950 p-7">
                   <div className="text-sm uppercase tracking-[0.2em] text-stone-400">Dissertation</div>
                   <h3 className="mt-3 text-2xl font-semibold text-white">
                     A Phenomenologically Informed Study of Black Male Preservice Teachers’ Lived Experiences
@@ -356,7 +356,7 @@ export default function DrAndersWebsite() {
                     </a>
                   </div>
                 </div>
-                <div className="rounded-[2rem] border border-white/10 bg-stone-950 p-7">
+                <div className="rounded-[2rem] border-2 border-[#917158]/60 bg-stone-950 p-7">
                   <div className="text-sm uppercase tracking-[0.2em] text-stone-400">Book Platform</div>
                   <h3 className="mt-3 text-2xl font-semibold text-white">Becoming Visible</h3>
                   <p className="mt-4 text-sm leading-7 text-stone-300">
@@ -364,7 +364,7 @@ export default function DrAndersWebsite() {
                   </p>
 
                 </div>
-                <div className="rounded-[2rem] border border-white/10 bg-stone-950 p-7">
+                <div className="rounded-[2rem] border-2 border-[#917158]/60 bg-stone-950 p-7">
                   <div className="text-sm uppercase tracking-[0.2em] text-stone-400">Framework</div>
                   <h3 className="mt-3 text-2xl font-semibold text-white">The C.A.R.E. Model</h3>
                   <p className="mt-4 text-sm leading-7 text-stone-300">
@@ -482,25 +482,25 @@ export default function DrAndersWebsite() {
             </div>
             <div className="mt-12 grid gap-5 md:grid-cols-4">
               {stats.map((stat) => (
-                <div key={stat.label} className="rounded-[2rem] border border-white/10 bg-stone-950 p-7 text-center">
+                <div key={stat.label} className="rounded-[2rem] border-2 border-[#917158]/60 bg-stone-950 p-7 text-center">
                   <div className="text-4xl font-semibold text-white">{stat.value}</div>
                   <div className="mt-3 text-sm leading-6 text-stone-400">{stat.label}</div>
                 </div>
               ))}
             </div>
-            <div className="mt-10 rounded-[2rem] border border-white/10 bg-stone-950 p-8">
+            <div className="mt-10 rounded-[2rem] border-2 border-[#917158]/60 bg-stone-950 p-8">
               <div className="grid gap-4 md:grid-cols-3">
-                <div className="rounded-2xl border border-white/10 bg-stone-900 p-5">
+                <div className="rounded-2xl border-2 border-[#917158]/60 bg-stone-900 p-5">
                   <Users className="h-5 w-5 text-[#B29671]" />
                   <div className="mt-3 text-lg font-medium text-white">Trusted by Institutions Nationwide</div>
                   <p className="mt-2 text-sm leading-7 text-stone-400">Supports higher education systems, school districts, teacher education programs, and cross-sector partners focused on strengthening educator pipelines.</p>
                 </div>
-                <div className="rounded-2xl border border-white/10 bg-stone-900 p-5">
+                <div className="rounded-2xl border-2 border-[#917158]/60 bg-stone-900 p-5">
                   <Mic2 className="h-5 w-5 text-[#B29671]" />
                   <div className="mt-3 text-lg font-medium text-white">Designed for Strategic Engagement</div>
                   <p className="mt-2 text-sm leading-7 text-stone-400">Each engagement moves leaders from conversation to execution through clear direction, aligned strategy, and measurable next steps.</p>
                 </div>
-                <div className="rounded-2xl border border-white/10 bg-stone-900 p-5">
+                <div className="rounded-2xl border-2 border-[#917158]/60 bg-stone-900 p-5">
                   <Award className="h-5 w-5 text-[#B29671]" />
                   <div className="mt-3 text-lg font-medium text-white">Built for Measurable Impact </div>
                   <p className="mt-2 text-sm leading-7 text-stone-400">Advances outcomes that matter: stronger recruitment, improved persistence, certification progress, workforce transition, and sustainable educator pipeline development.</p>
