@@ -118,7 +118,7 @@ export default function DrAndersWebsite() {
               </a>
             ))}
             <a href="#contact" className="rounded-full bg-[#917158] px-5 py-2.5 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-[#7B5C45]">
-              Book Now
+              Contact
             </a>
           </nav>
         </div>
