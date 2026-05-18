@@ -532,6 +532,26 @@ export default function DrAndersWebsite() {
                 <div className="rounded-2xl border-2 border-[#917158]/60 bg-stone-950/80 p-5">
                   <div className="text-sm text-stone-400">Email</div>
                   <div className="mt-2 text-lg font-medium text-white">Anders1906@gmail.com</div>
+                  <div className="mt-4 space-y-2 border-t border-white/10 pt-4">
+                    <a
+                      href="https://instagram.com/drwilliamanders"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-sm text-stone-300 transition hover:text-[#B29671]"
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-[#B29671]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                      @drwilliamanders
+                    </a>
+                    <a
+                      href="https://tinyurl.com/56nfu46w"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-sm text-stone-300 transition hover:text-[#B29671]"
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-[#B29671]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                      Connect on LinkedIn
+                    </a>
+                  </div>
                 </div>
                 <div className="rounded-2xl border-2 border-[#917158]/60 bg-stone-950/80 p-5">
                   <div className="text-sm text-stone-400">Positioning</div>
@@ -546,7 +566,7 @@ export default function DrAndersWebsite() {
                 <a href="mailto:Anders1906@gmail.com" className="rounded-2xl bg-[#917158] px-6 py-3.5 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-[#7B5C45]">
                   Inquire About Consulting or Speaking
                 </a>
-                <a href="#speaking" className="rounded-2xl border border-white/15 px-6 py-3.5 text-sm font-semibold text-white transition hover:bg-white/5">
+                <a href="#speaking" className="rounded-2xl border-2 border-[#917158]/60 px-6 py-3.5 text-sm font-semibold text-white transition hover:bg-white/5">
                   Review Speaking Topics
                 </a>
               </div>
