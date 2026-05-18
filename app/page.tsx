@@ -534,13 +534,13 @@ export default function DrAndersWebsite() {
                   <div className="mt-2 text-lg font-medium text-white">Anders1906@gmail.com</div>
                   <div className="mt-4 space-y-2 border-t border-white/10 pt-4">
                     <a
-                      href="https://instagram.com/drwilliamanders"
+                      href="https://instagram.com/dr.williamanders"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-2 text-sm text-stone-300 transition hover:text-[#B29671]"
                     >
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-[#B29671]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
-                      @drwilliamanders
+                      @dr.williamanders
                     </a>
                     <a
                       href="https://tinyurl.com/56nfu46w"
