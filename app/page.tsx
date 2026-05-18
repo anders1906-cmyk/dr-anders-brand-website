@@ -146,7 +146,7 @@ export default function DrAndersWebsite() {
                     Book Dr. Anders
                     <ArrowRight className="h-4 w-4" />
                   </a>
-                  <a href="#services" className="rounded-2xl border border-white/15 px-6 py-3.5 text-sm font-semibold text-white transition hover:bg-white/5">
+                  <a href="#services" className="rounded-2xl border-2 border-[#917158]/60 px-6 py-3.5 text-sm font-semibold text-white transition hover:bg-white/5">
                     Explore Consulting Services
                   </a>
                 </div>
@@ -208,7 +208,7 @@ export default function DrAndersWebsite() {
               </h2>
             </div>
             <div className="lg:col-span-8">
-              <div className="rounded-[2rem] border border-white/10 bg-white/5 p-8 md:p-10">
+              <div className="rounded-[2rem] border-2 border-[#917158]/50 bg-white/5 p-8 md:p-10">
                 <p className="text-lg leading-8 text-stone-300">
                   Dr. William A. Anders is a nationally recognized speaker, consultant, and scholar-practitioner specializing in teacher education redesign, educator pipeline strategy, and Black male educator pipelines. He works with school districts, higher education institutions, teacher education programs, faculty, staff, deans, and executive leaders to move from fragmented efforts to aligned, outcome-driven systems that strengthen representation, improve persistence, and build durable educator pipelines.
                 </p>
@@ -220,7 +220,7 @@ export default function DrAndersWebsite() {
                 </div>
                 <div className="mt-8 grid gap-4 md:grid-cols-2">
                   {authorityPoints.map((point) => (
-                    <div key={point} className="rounded-2xl border border-white/10 bg-stone-900/70 p-5 text-sm leading-7 text-stone-300">
+                    <div key={point} className="rounded-2xl border-2 border-[#917158]/60 bg-stone-900/70 p-5 text-sm leading-7 text-stone-300">
                       {point}
                     </div>
                   ))}
@@ -314,7 +314,7 @@ export default function DrAndersWebsite() {
                 {topics.map((topic) => (
                   <div
                     key={topic}
-                    className="rounded-[2rem] border border-white/10 bg-white/5 p-6 text-base leading-7 text-stone-200 shadow-lg shadow-black/10"
+                    className="rounded-[2rem] border-2 border-[#917158]/60 bg-white/5 p-6 text-base leading-7 text-stone-200 shadow-lg shadow-black/10"
                   >
                     {topic}
                   </div>
@@ -529,15 +529,15 @@ export default function DrAndersWebsite() {
                 </p>
               </div>
               <div className="mt-10 grid gap-5 md:grid-cols-3">
-                <div className="rounded-2xl border border-white/10 bg-stone-950/80 p-5">
+                <div className="rounded-2xl border-2 border-[#917158]/60 bg-stone-950/80 p-5">
                   <div className="text-sm text-stone-400">Email</div>
                   <div className="mt-2 text-lg font-medium text-white">Anders1906@gmail.com</div>
                 </div>
-                <div className="rounded-2xl border border-white/10 bg-stone-950/80 p-5">
+                <div className="rounded-2xl border-2 border-[#917158]/60 bg-stone-950/80 p-5">
                   <div className="text-sm text-stone-400">Positioning</div>
                   <div className="mt-2 text-lg font-medium text-white">Consultant, national speaker, and education systems architect</div>
                 </div>
-                <div className="rounded-2xl border border-white/10 bg-stone-950/80 p-5">
+                <div className="rounded-2xl border-2 border-[#917158]/60 bg-stone-950/80 p-5">
                   <div className="text-sm text-stone-400">Primary Markets</div>
                   <div className="mt-2 text-lg font-medium text-white">Higher education institutions, school districts, teacher education programs, leadership teams, nonprofits, and conferences</div>
                 </div>
