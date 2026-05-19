@@ -107,17 +107,17 @@ export default function DrAndersWebsite() {
             <div className="text-sm text-stone-400">National Speaker | Consultant | Educator Pipeline Expert</div>
           </div>
           {/* Mobile Home button — only visible on small screens */}
-          <a href="#" className="lg:hidden rounded-full border border-white/15 px-4 py-2 text-sm font-semibold text-white transition hover:bg-white/5">
+          <a href="#" className="lg:hidden rounded-full border border-white/15 px-4 py-2 text-sm font-semibold uppercase tracking-wider text-white transition hover:bg-white/5">
             Home
           </a>
           {/* Desktop nav — only visible on large screens */}
           <nav className="hidden items-center gap-6 lg:flex">
             {[{ label: "Home", href: "#" }, ...nav].map((item) => (
-              <a key={item.label} href={item.href} className="text-sm text-stone-300 transition hover:text-white">
+              <a key={item.label} href={item.href} className="text-sm font-semibold uppercase tracking-wider text-stone-300 transition hover:text-white">
                 {item.label}
               </a>
             ))}
-            <a href="#contact" className="rounded-full bg-[#917158] px-5 py-2.5 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-[#7B5C45]">
+            <a href="#contact" className="rounded-full bg-[#917158] px-5 py-2.5 text-sm font-semibold uppercase tracking-wider text-white transition hover:-translate-y-0.5 hover:bg-[#7B5C45]">
               Contact
             </a>
           </nav>
