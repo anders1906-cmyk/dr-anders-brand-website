@@ -1,8 +1,11 @@
 "use client";
 
-import { ArrowRight, Award, Briefcase, Building2, Mic2, Quote, Sparkles, Users } from "lucide-react";
+import { useState } from "react";
+import { ArrowRight, Award, Briefcase, Building2, Menu, Mic2, Quote, Sparkles, Users, X } from "lucide-react";
 
 export default function DrAndersWebsite() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   const nav = [
     { label: "About", href: "#about" },
     { label: "Services", href: "#services" },
@@ -106,10 +109,14 @@ export default function DrAndersWebsite() {
             <div className="text-lg font-semibold tracking-wide text-white">Dr. William A. Anders</div>
             <div className="text-sm text-stone-400">National Speaker | Consultant | Educator Pipeline Expert</div>
           </div>
-          {/* Mobile Home button — only visible on small screens */}
-          <a href="#" className="lg:hidden rounded-full border border-white/15 px-4 py-2 text-sm font-semibold tracking-wider text-white transition hover:bg-white/5">
-            Home
-          </a>
+          {/* Mobile menu toggle */}
+          <button
+            onClick={() => setMenuOpen(!menuOpen)}
+            className="lg:hidden -mr-2 rounded-full border border-white/15 p-2.5 text-white transition hover:bg-white/5"
+            aria-label="Toggle menu"
+          >
+            {menuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+          </button>
           {/* Desktop nav — only visible on large screens */}
           <nav className="hidden items-center gap-6 lg:flex">
             {[{ label: "Home", href: "#" }, ...nav].map((item) => (
@@ -122,6 +129,30 @@ export default function DrAndersWebsite() {
             </a>
           </nav>
         </div>
+        {/* Mobile dropdown */}
+        {menuOpen && (
+          <div className="lg:hidden border-t border-white/10 bg-stone-950/95 backdrop-blur-xl">
+            <div className="mx-auto max-w-7xl px-6 py-4 flex flex-col gap-1">
+              {[{ label: "Home", href: "#" }, ...nav].map((item) => (
+                <a
+                  key={item.label}
+                  href={item.href}
+                  onClick={() => setMenuOpen(false)}
+                  className="rounded-lg px-4 py-3 text-sm font-semibold tracking-wider text-stone-300 transition hover:bg-white/5 hover:text-white"
+                >
+                  {item.label}
+                </a>
+              ))}
+              <a
+                href="#contact"
+                onClick={() => setMenuOpen(false)}
+                className="mt-2 rounded-full bg-[#917158] px-5 py-3 text-center text-sm font-semibold tracking-wider text-white transition hover:bg-[#7B5C45]"
+              >
+                Contact
+              </a>
+            </div>
+          </div>
+        )}
       </header>
 
       <main>
